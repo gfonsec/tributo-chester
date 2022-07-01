@@ -124,10 +124,7 @@ header {
 .trecho {
     display: flex;
     justify-content: center;
-}
-.musica {
-    display: flex;
-    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .trecho q {
@@ -138,12 +135,17 @@ header {
     font-family: var(--font3);
 }
 
+.musica {
+    display: flex;
+    justify-content: center;
+}
+
 .citacao {
     display: flex;
     justify-content: flex-end;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 10px;
-    margin-top: 20px;
+    margin: 20px;
+    margin-top: 30px;
     font-size: 14px;
     color: white; 
 }
