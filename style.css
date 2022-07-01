@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+:root {
+    --font1:'New Rocker', cursive;
+    --font2:'Rock Salt', cursive;
+    --font3:'RocknRoll One', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-image: url('images/fundoblack.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    background-color: #1c1c1c;
+}
+
+.page_header { 
+    margin-top: 30px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.page_header h1 {
+    font-family: var(--font1);
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+.page_header h2 {
+    margin-top: 10px;
+    font-family: var(--font2);
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+.column {
+    flex-direction: column;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+}
+
+.page img {
+    width: 600px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.timeline {
+    display: flex;
+    justify-content: center;
+}
+
+.lista {
+    background-image: url('images/fundomicrofone.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;  
+    
+}
+
+.titulo_lista {
+    color: white;
+    font-family: var(--font3);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+
+.left, .right {
+    margin: 20px;
+    font-family: var(--font3);
+    font-size: 15px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.left {
+    background-color: rgba(0, 0, 0, 0.800);
+    padding: 20px;
+    color: white;   
+}
+
+.right {
+    text-align: end;
+    background-color: rgba(255, 255, 255, 0.600);
+    padding: 20px;
+}
+
+.final {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.trecho {
+    display: flex;
+    justify-content: center;
+}
+.musica {
+    display: flex;
+    justify-content: center;
+}
+audio {
+    width: auto;;
+}
+
+.trecho q {
+    margin-top: 20px;
+    font-size: 17px;
+    line-height: 60px;
+    color: white;
+    font-family: var(--font3);
+}
+
+.citacao {
+    display: flex;
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: white; 
+}
+
+.citacao a {
+    color: greenyellow;
+}
+
+.rodape {
+    border-top: 1px solid #585858;
+    color: #5c5c5c;
+    text-align: center;
+    padding: 10px;
+}
+
+.rodape a {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+@media (max-width: 550px) {
+    .page img {
+        width: 370px;
+    }
+}
