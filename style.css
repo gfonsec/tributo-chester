@@ -129,9 +129,6 @@ header {
     display: flex;
     justify-content: center;
 }
-audio {
-    width: auto;
-}
 
 .trecho q {
     margin-top: 20px;
