@@ -78,7 +78,7 @@ header {
     background-image: url('images/fundomicrofone.jpg');
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: left center;
     background-repeat: no-repeat;
     height: auto;  
     
@@ -132,7 +132,7 @@ header {
 
 .trecho q {
     margin-top: 20px;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 60px;
     color: white;
     font-family: var(--font3);
@@ -154,7 +154,7 @@ header {
 
 .rodape {
     border-top: 1px solid #585858;
-    color: #5c5c5c;
+    color: #8c8c8c;
     text-align: center;
     padding: 10px;
 }
@@ -162,7 +162,6 @@ header {
 .rodape a {
     color: white;
     font-weight: bold;
-    text-decoration: underline;
 }
 
 @media (max-width: 550px) {
