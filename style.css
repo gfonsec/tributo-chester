@@ -79,9 +79,7 @@ header {
     background-attachment: fixed;
     background-size: cover;
     background-position: left;
-    background-repeat: no-repeat;
-    height: auto;  
-    
+    background-repeat: no-repeat;  
 }
 
 .titulo_lista {
@@ -104,14 +102,14 @@ header {
 }
 
 .left {
-    background-color: rgba(0, 0, 0, 0.800);
+    background-color: rgba(0, 0, 0, 0.900);
     padding: 20px;
     color: white;   
 }
 
 .right {
     text-align: end;
-    background-color: rgba(255, 255, 255, 0.600);
+    background-color: rgba(255, 255, 255, 0.800);
     padding: 20px;
 }
 
@@ -154,8 +152,16 @@ header {
     color: greenyellow;
 }
 
-.rodape {
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.border {
     border-top: 1px solid #585858;
+}
+
+.rodape {
     color: #8c8c8c;
     text-align: center;
     padding: 10px;
